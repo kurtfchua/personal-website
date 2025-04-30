@@ -15,7 +15,7 @@ const Hero: React.FC<HeroProps> = ({ name, title }) => {
       transition={{ duration: 2.75 }}
       className="text-center py-20 px-4 bg-white text-black"
     >
-      <h1 className="text-4xl font-bold mb-2">Hi, I'm {name}</h1>
+      <h1 className="text-4xl font-bold mb-2">Hi, I'm {name}!</h1>
       <p className="text-xl text-gray-700">{title}</p>
     </MotionDiv>
   )
