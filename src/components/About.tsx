@@ -17,14 +17,15 @@ const About = () => {
       <h2 className="text-3xl font-semibold mb-4">About Me</h2>
       <p className="mb-4">
         I’m a software engineer with a passion for building thoughtful, human-centered experiences.
-        I previously studied computer science at Cornell (BA in CS 20') and worked on backend systems at Cisco.
-        Outside of programming, I write music and am a fan of poetry — blending creative storytelling with structured design.
+        Previously, I studied computer science at Cornell University (B.A. 20') and worked on backend systems at Cisco.
+       
       </p>
       <p>
-        Whether I’m designing scalable APIs or composing atmospheric guitar textures, I care about clarity, emotion, and craft.
+      Outside of programming, I write music and am a fan of literature and poetry — blending creative storytelling with structured design.
       </p>
     </MotionSection>
   )
-}
 
+}
+  
 export default About
